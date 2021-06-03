@@ -17,7 +17,7 @@ public class TowerOfHanoi {
             return;
         }
         toh(n - 1, tow1, tow3, tow2);
-        System.out.println(n + "[" + tow1 + " -> " + tow2+"]");
-        toh(n-1, tow3, tow2, tow1);
+        System.out.println(n + "[" + tow1 + " -> " + tow2 + "]");
+        toh(n - 1, tow3, tow2, tow1);
     }
 }
